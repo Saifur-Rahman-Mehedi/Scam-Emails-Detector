@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scam Emails Detector</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div id="popup-content">
+        <h1>Scam Emails Detector</h1>
+        <p>Protecting you from phishing attempts.</p>
+        <div id="status">
+            <p>Last scan: <span id="last-scan-result">No recent scans.</span></p>
+        </div>
+        <div id="actions">
+            <button id="scan-now">Scan Now</button>
+        </div>
+        <footer>
+            <p>Learn more about phishing <a href="https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams" target="_blank">here</a>.</p>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
